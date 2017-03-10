@@ -34,5 +34,39 @@ module.exports = {
 			return 'Buzz';
 		}
 		else return number;
+	},
+
+	aritGeo: function(inputArray){
+		if (inputArray.length>=3){
+
+			var d = inputArray[1] - inputArray[0];
+			var r = inputArray[1] / inputArray[0];
+			var i=2;
+			var returnValue = 'Arithmetic';
+
+			while (i<inputArray.length){
+				if (inputArray[i] - inputArray[i-1] != d){
+					returnValue = 'Geometric';
+					break;
+				}
+				else if (i++ == inputArray.length-1){
+					return returnValue;
+				}
+			}
+			while(i<inputArray.length){
+				if(inputArray[i] / inputArray[i-1] != r){
+					return -1;
+				}
+				else if (i++ == inputArray.length-1){
+					return returnValue;
+				}
+			}
+		}
+		else if (inputArray.length>=1){
+			return -1;
+		}
+		else{
+			return 0;
+		}
 	}
 }
