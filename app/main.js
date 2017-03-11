@@ -62,11 +62,11 @@ module.exports = {
 				}
 			}
 		}
-		else if (inputArray.length>=1){
-			return -1;
+		else if (inputArray.length==0){
+			return 0;
 		}
 		else{
-			return 0;
+			return -1;
 		}
 	}
 }

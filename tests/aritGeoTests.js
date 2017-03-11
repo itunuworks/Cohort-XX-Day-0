@@ -59,6 +59,14 @@
         expect(aritGeo([1, 8, 27, 64, 125])).toEqual(-1);
       });
       
+      it("should return -1 for 'itunuloluwa'", function() {
+        expect(aritGeo('itunuloluwa')).toEqual(-1);
+      });
+
+      it("should return -1 for 1", function() {
+        expect(aritGeo(1)).toEqual(-1);
+      });
+
     });
   });
 })();
