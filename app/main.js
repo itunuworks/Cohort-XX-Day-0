@@ -57,6 +57,7 @@ module.exports = {
 					return returnValue;
 				}
 			}
+			i = 2;
 			while(i<inputArray.length){
 				if(inputArray[i] / inputArray[i-1] != r){
 					return -1;
