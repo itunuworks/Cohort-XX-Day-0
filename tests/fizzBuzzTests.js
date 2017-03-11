@@ -36,4 +36,16 @@ describe("Fizz Buzz tests ", function() {
     expect(fizzBuzz(101)).toBe(101);
   });
 
+  it("should return 'saint' since it is not a number and can't be divisible by 3 and 5", function() {
+    expect(fizzBuzz('saint')).toBe('saint');
+  });
+
+  it("should return '' since its indivisible by 3 and 5", function() {
+    expect(fizzBuzz('')).toBe('');
+  });
+
+  it("should return 'undefined' since no parameter is passed", function() {
+    expect(fizzBuzz()).toBe(undefined);
+  });
+ 
 });
