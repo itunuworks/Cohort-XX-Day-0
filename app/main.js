@@ -37,7 +37,7 @@ module.exports = {
 				return 'Buzz';
 			}
 		}
-		else return number;
+		return returnValue;
 	},
 
 	aritGeo: function(inputArray){
