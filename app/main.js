@@ -5,7 +5,7 @@ module.exports = {
 		var max = numberArray[0];
 		var min = numberArray[0];
 		var i = 1;
-		
+
 		while (i<numberArray.length){
 			if (numberArray[i]>max){
 				max = numberArray[i];
@@ -24,14 +24,18 @@ module.exports = {
 	}, 
 
 	fizzBuzz: function(number){
-		if (number%3 == 0 && number%5 == 0){
-			return 'FizzBuzz';
-		}
-		else if (number%3 == 0){
-			return 'Fizz';
-		}
-		else if (number%5 == 0){
-			return 'Buzz';
+		var returnValue = number;
+
+		if (typeof(number) == 'number'){
+			if (number%3 == 0 && number%5 == 0){
+				return 'FizzBuzz';
+			}
+			else if (number%3 == 0){
+				return 'Fizz';
+			}
+			else if (number%5 == 0){
+				return 'Buzz';
+			}
 		}
 		else return number;
 	},
@@ -68,5 +72,6 @@ module.exports = {
 		else{
 			return -1;
 		}
+		return returnValue;		
 	}
 }
