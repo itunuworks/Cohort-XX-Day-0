@@ -5,7 +5,7 @@ module.exports = {
 		var max = numberArray[0];
 		var min = numberArray[0];
 		var i = 1;
-		
+
 		while (i<numberArray.length){
 			if (numberArray[i]>max){
 				max = numberArray[i];
