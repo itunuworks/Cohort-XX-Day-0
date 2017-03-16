@@ -1,28 +1,25 @@
 {
-  "name": "cohort-xx-day-1",
+  "name": "cohort-xx-day-0",
   "version": "1.0.0",
-  "description": "This project contains 3 functions findMinMax, fizzBuzz and aritGeo which form day 0 labs at the Andela Week 1 Bootcamp.\u001b[H\u001b[C\u001b[C\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[A\u001b[F\u001b[C\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C all com\u001b[2~plete\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[1;2C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[2~d\u001b[2~ with test cases and making up my Day 1 labs at Andela Bootcamp.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D0",
+  "description": "This project contains 3 functions findMinMax, fizzBuzz and aritGeo which form day 0 labs at the Andela Week 1 Bootcamp.",
   "main": "app/main.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itunuworks/Cohort-XX-Day-1.git"
+    "url": "git+https://github.com/itunuworks/Cohort-XX-Day-0.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/itunuworks/Cohort-XX-Day-1/issues"
+    "url": "https://github.com/itunuworks/Cohort-XX-Day-0/issues"
   },
-  "homepage": "https://github.com/itunuworks/Cohort-XX-Day-1#readme",
+  "homepage": "https://github.com/itunuworks/Cohort-XX-Day-0#readme",
   "dependencies": {
-    "jasmine": "^2.5.3"
-  },
-  "devDependencies": {
     "jasmine": "^2.5.3"
   }
 }
