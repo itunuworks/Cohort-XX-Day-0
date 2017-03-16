@@ -1,1 +1,1 @@
-# Cohort-XX-Day-1
+# Cohort-XX-Day-0
