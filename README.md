@@ -26,8 +26,7 @@ This project contains **3 Andelabs functions**, all complete with a total of 30 
 
 - fizzBuzz
 
-  - This function in the form `fizzBuzz(number)` checks if the number passed is divisible by 3, 5 or Both. Where it is divisible by 3, 	 
-  	it returns a 'fizz' else if it is divisible by 5, return 'Buzz', else if it is divisible by both 5 and 3, return 'FizzBuzz'
+  - This function in the form `fizzBuzz(number)` checks if the number passed is divisible by 3, 5 or Both. Where it is divisible by 3, it returns a 'Fizz' else if it is divisible by 5, return 'Buzz', else if it is divisible by both 5 and 3, return 'FizzBuzz'
 
     E.g. For the line of code
 
@@ -35,7 +34,19 @@ This project contains **3 Andelabs functions**, all complete with a total of 30 
 
     would have a return value
 
-    `'fizzBuzz'`
+    `'FizzBuzz'`
+
+- aritGeo
+
+  - This function in the form `aritGeo(inputArray)` checks if the passed array is a Geometric Progression, Arithmetic Progression or if it is at all a progression. if the array is Geometric, it returns `'Geometric'` else if it is arithmetic, it returns `Arithmetic`, else if it is none of both, it returns `-1` and if it is an empty array, it returns `-0`.
+
+  	E.g. For the line of code
+
+  	`aritGeo([2, 6, 18, 54, 162])`
+
+  	would have a return value 
+
+  	`'Geometric'`
 
 ## How to install
 
